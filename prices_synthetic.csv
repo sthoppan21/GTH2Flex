@@ -1,0 +1,13 @@
+slot,timestamp_utc,price_usd_per_mwh,source_kind,source
+0,scenario_hour_00,80,synthetic,Hand-authored demonstration; not measured market data
+1,scenario_hour_01,70,synthetic,Hand-authored demonstration; not measured market data
+2,scenario_hour_02,30,synthetic,Hand-authored demonstration; not measured market data
+3,scenario_hour_03,20,synthetic,Hand-authored demonstration; not measured market data
+4,scenario_hour_04,50,synthetic,Hand-authored demonstration; not measured market data
+5,scenario_hour_05,90,synthetic,Hand-authored demonstration; not measured market data
+6,scenario_hour_06,100,synthetic,Hand-authored demonstration; not measured market data
+7,scenario_hour_07,60,synthetic,Hand-authored demonstration; not measured market data
+8,scenario_hour_08,25,synthetic,Hand-authored demonstration; not measured market data
+9,scenario_hour_09,15,synthetic,Hand-authored demonstration; not measured market data
+10,scenario_hour_10,40,synthetic,Hand-authored demonstration; not measured market data
+11,scenario_hour_11,85,synthetic,Hand-authored demonstration; not measured market data

@@ -1,0 +1,92 @@
+{
+  "dataset": "synthetic, not real prices",
+  "tests": {
+    "schedules_checked": 4096,
+    "feasible_schedules": 400
+  },
+  "assertions": "QUBO/Ising, inventory, norm and negative-price tests passed",
+  "baselines": {
+    "exact": {
+      "schedule": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "cost_eur": 182.0
+    },
+    "fixed_alternating": {
+      "schedule": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "cost_eur": 331.0
+    },
+    "price_greedy": {
+      "schedule": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "cost_eur": 182.0
+    },
+    "random_feasible": {
+      "schedule": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "cost_eur": 364.0
+    }
+  },
+  "numpy_only_parameter_training": {
+    "p": 1,
+    "theta": [
+      6.753364369644698,
+      1.3191464582838404
+    ],
+    "seconds": 0.10864912499999946,
+    "evaluations": 240,
+    "scaled_expectation": 0.053406846469977606,
+    "optimizer_converged": true,
+    "ideal_feasible_probability": 0.4488936785133454
+  },
+  "Qiskit_execution": "Not tested: Qiskit is not installed in this execution environment.",
+  "real_dataset_download": "Not performed: this execution environment has no internet access."
+}
